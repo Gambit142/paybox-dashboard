@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import Navigation from './Navigation';
+import Navigation from './MobileNavigation';
 
 const SideNavigation = ({ navigationLinksData }) => (
   <section>
