@@ -1,39 +1,132 @@
-.App {
-  text-align: center;
+/* Common style rules to be used across the application */
+
+:root {
+  --nunito: 'Nunito', sans-serif;
+  --montserrat: 'Montserrat', sans-serif;
+  --sora: 'Sora', sans-serif;
+  --clash-display: 'Clash Display', serif;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-20: 1.25rem;
+  --white: #fff;
+  --light-blue: #4f64a7;
+  --dark-blue: #032282;
+  --background-blue: #07112D;
+  --light-dark: #37474F;
+  --dark: #263238;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
+}
+
+.flex-column {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nunito-font-400 {
+  font-family: var(--nunito);
+  font-weight: var(--fw-400);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.nunito-font-500 {
+  font-family: var(--nunito);
+  font-weight: var(--fw-500);
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.nunito-font-600 {
+  font-family: var(--nunito);
+  font-weight: var(--fw-600);
+}
+
+.nunito-font-700 {
+  font-family: var(--nunito);
+  font-weight: var(--fw-700);
+}
+
+.montserrat-font-500 {
+  font-family: var(--montserrat);
+  font-weight: var(--fw-500);
+}
+
+.sora-font-400 {
+  font-family: var(--sora);
+  font-weight: var(--fw-400);
+}
+
+.sora-font-500 {
+  font-family: var(--sora);
+  font-weight: var(--fw-500);
+}
+
+.sora-font-600 {
+  font-family: var(--sora);
+  font-weight: var(--fw-600);
+}
+
+.clash-display-font-400 {
+  font-family: var(--clash-display);
+  font-weight: var(--fw-400);
+}
+
+.clash-display-font-700 {
+  font-family: var(--clash-display);
+  font-weight: var(--fw-700);
+}
+
+.fs-12 {
+  font-size: var(--fs-12);
+}
+
+.fs-14 {
+  font-size: var(--fs-14);
+}
+
+.fs-16 {
+  font-size: var(--fs-16);
+}
+
+.fs-20 {
+  font-size: var(--fs-20);
+}
+
+.white {
+  color: var(--white);
+}
+
+.light-blue {
+  color: var(--light-blue);
+}
+
+.dark-blue {
+  color: var(--dark-blue);
+}
+
+.background-blue {
+  background-color: var(--background-blue);
+}
+
+.light-dark {
+  color: var(--light-dark);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+.primary-bacground {
+  background-color: var(--background-blue);
+}
+
+.secondary-background {
+  background-color: var(--dark-blue);
+}
+
+.line-height-1 {
+  line-height: 1.25rem;
 }
