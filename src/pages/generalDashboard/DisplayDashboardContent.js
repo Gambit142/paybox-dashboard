@@ -14,7 +14,7 @@ const DisplayDashboardContent = ({ navigationLinksData }) => (
             <Header title={link.name} />
             <link.component />
           </div>
-            )}
+        )}
       />
     ))}
   </Routes>
