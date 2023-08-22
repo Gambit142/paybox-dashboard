@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './aggregate-metrics.module.css';
+import styles from './metrics.module.css';
 
 const AggregateMetrics = ({ aggregateMetricsData }) => (
   <section className="flex flex-column">
