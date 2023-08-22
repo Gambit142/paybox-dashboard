@@ -1,8 +1,8 @@
-import styles from './analytics-dashboard.module.css';
+import styles from './account-summary.module.css';
 import accountDetails from '../../data/accountDetails';
 
 const AccountSummary = () => (
-  <div className="flex flex-column">
+  <section className="flex flex-column">
     <div className={`${styles['balance-container']} flex flex-column secondary-background`}>
       <div className={`${styles.image} ${styles.image1}`} />
       <div className={`${styles.image} ${styles.image2}`} />
@@ -25,7 +25,7 @@ const AccountSummary = () => (
       </div>
     </div>
     {accountDetails.map((detail) => (
-      <div className={`${styles.accountDetailsContainer}`} key={detail.detailType}>
+      <article className={`${styles.accountDetailsContainer}`} key={detail.detailType}>
         <div className={`${styles.accountDetails} flex flex-column`}>
           <span className={`light-blue sora-font-400 fs-14 font-numeric ${styles.detailInfo} ${styles.detailType}`}>{detail.detailType}</span>
           <span className={`dark-blue font-numeric sora-font-600 fs-20 ${styles.detailInfo} ${styles.detailValue}`}>{detail.detailAmount}</span>
@@ -38,9 +38,9 @@ const AccountSummary = () => (
             <img src="./assets/images/group-right-icon.svg" alt="group-right-icon" />
           </div>
         </div>
-      </div>
+      </article>
     ))}
-  </div>
+  </section>
 );
 
 AccountSummary.displayName = 'AccountSummary';
