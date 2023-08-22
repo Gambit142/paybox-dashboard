@@ -1,6 +1,7 @@
 import { useMediaQuery } from 'react-responsive';
 import AccountSummary from '../../components/analytics-dashboard/AccountSummary';
 import AggregateMetrics from '../../components/analytics-dashboard/AggregateMetrics';
+import FinancialMetrics from '../../components/analytics-dashboard/FinancialMetrics';
 import {
   aggregateMetricsForTwoWeeksDesktop,
   aggregateMetricsForTwoWeeksMobile,
@@ -13,6 +14,7 @@ const AnalyticsDashboard = () => {
     <section className="container-padding">
       <AccountSummary />
       <AggregateMetrics aggregateMetricsData={arrayData} />
+      <FinancialMetrics />
     </section>
   );
 };

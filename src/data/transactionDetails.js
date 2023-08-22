@@ -89,7 +89,7 @@ const aggregateMetricsForTwoWeeksDesktop = [
 
 const financialMetrics = [
   {
-    generalLlabel: 'Total cashout',
+    generalLabel: 'Total cashout',
     metric: [
       {
         label: 'Today',
@@ -102,7 +102,7 @@ const financialMetrics = [
     ],
   },
   {
-    generalLlabel: 'Transaction status',
+    generalLabel: 'Transaction status',
     metric: [
       {
         label: 'Successful',
@@ -117,7 +117,7 @@ const financialMetrics = [
     ],
   },
   {
-    generalLlabel: 'Average Transaction Count',
+    generalLabel: 'Average Transaction Count',
     metric: [
       {
         label: 'Value',
@@ -130,7 +130,7 @@ const financialMetrics = [
     ],
   },
   {
-    generalLlabel: 'Total commission',
+    generalLabel: 'Total commission',
     metric: [
       {
         label: 'POS commission',
@@ -143,7 +143,7 @@ const financialMetrics = [
     ],
   },
   {
-    generalLlabel: 'Average commission per transaction',
+    generalLabel: 'Average commission per transaction',
     metric: [
       {
         label: 'POS commission',
