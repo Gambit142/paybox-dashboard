@@ -1,22 +1,51 @@
-const basicInformationDetails = [
+const twoMillion = '₦2,000,000';
+const fiveMillion = '₦5,000,000';
+const onePointTwoMillion = '₦1,200,000';
+
+// Data for Aggregate Metrics for Two Weeks for Mobile version starts here
+
+const timeIntervalsMobile = [
   {
-    label: 'Total savings balance',
-    value: '₦194,000',
+    label: 'Today',
+    value: onePointTwoMillion,
   },
   {
-    label: 'Total customers',
-    value: '₦919',
+    label: 'Yesterday',
+    value: onePointTwoMillion,
   },
   {
-    label: 'Total POS',
-    value: '0',
+    label: 'This week',
+    value: onePointTwoMillion,
+  },
+  {
+    label: 'Last week',
+    value: onePointTwoMillion,
   },
 ];
 
-const twoMillion = '₦2,000,000';
-const fiveMillion = '₦5,000,000';
+const aggregateMetricsForTwoWeeksMobile = [
+  {
+    generalLabel: 'Total transfers',
+    timeIntervalsMobile,
+  },
+  {
+    generalLabel: 'Total inflows',
+    timeIntervalsMobile,
+  },
+  {
+    generalLabel: 'Total transactions',
+    timeIntervalsMobile,
+  },
+  {
+    generalLabel: 'Transaction count',
+    timeIntervalsMobile,
+  },
+];
 
-const timeIntervals = [
+// Data for Aggregate Metrics for Two Weeks for Mobile version ends here
+
+// Data for Aggregate Metrics for Two Weeks for Desktop version starts here
+const timeIntervalsDesktop = [
   {
     label: 'Today',
     value: twoMillion,
@@ -35,28 +64,32 @@ const timeIntervals = [
   },
 ];
 
-const aggregateMetricsForTwoWeeks = [
+// Data for Aggregate Metrics for Two Weeks for Desktop version ends here
+
+const aggregateMetricsForTwoWeeksDesktop = [
   {
-    generalLabel: 'Total transfer',
-    timeIntervals,
+    generalLabel: 'Total transfers',
+    timeIntervalsDesktop,
   },
   {
-    generalLabel: 'Total inflow',
-    timeIntervals,
+    generalLabel: 'Total inflows',
+    timeIntervalsDesktop,
   },
   {
     generalLabel: 'Total transactions',
-    timeIntervals,
+    timeIntervalsDesktop,
   },
   {
-    generalLabel: 'Total count',
-    timeIntervals,
+    generalLabel: 'Transaction count',
+    timeIntervalsDesktop,
   },
 ];
 
+// Data for Financial Metrics starts here
+
 const financialMetrics = [
   {
-    generalLlabel: 'Total Cashout',
+    generalLlabel: 'Total cashout',
     metric: [
       {
         label: 'Today',
@@ -124,8 +157,10 @@ const financialMetrics = [
   },
 ];
 
+// Data for Financial Metrics ends here
+
 export {
-  basicInformationDetails,
-  aggregateMetricsForTwoWeeks,
+  aggregateMetricsForTwoWeeksDesktop,
+  aggregateMetricsForTwoWeeksMobile,
   financialMetrics,
 };
