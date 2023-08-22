@@ -143,6 +143,7 @@
 .container-padding {
   padding: var(--fs-16);
   background: #F8F9FB;
+  margin-top: 4rem;
 }
 
 .font-numeric {

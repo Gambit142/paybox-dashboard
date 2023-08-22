@@ -1,0 +1,49 @@
+/* Style Declarations for the Mobile Navigation and the Side Bar */
+
+.navigationContainer {
+  align-items: flex-start;
+  padding: 1.88rem 1rem 0 1rem;
+  background-color: #07112d;
+  height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 4rem;
+}
+
+.line {
+  width: 16rem;
+  height: 0.025rem;
+  border: 1px dashed #fff;
+  opacity: 0.2;
+}
+
+.line2 {
+  margin-left: -1rem;
+  margin-bottom: 1.56rem;
+}
+
+.linksContainer {
+  padding-left: 1rem;
+  list-style-type: none;
+  margin-top: 1.81rem;
+}
+
+.navLink {
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  background-color: #192749;
+  border-radius: 0.5rem;
+  transform: scale(1.05);
+  padding: 0.7rem;
+}
+
+.linkWord {
+  gap: 0.5rem;
+  align-items: center;
+}
