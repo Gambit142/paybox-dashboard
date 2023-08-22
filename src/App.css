@@ -127,6 +127,20 @@
   background-color: var(--dark-blue);
 }
 
+.line-height-normal {
+  line-height: normal;
+}
+
 .line-height-1 {
   line-height: 1.25rem;
+}
+
+.container-padding {
+  padding: 1em;
+  background: #F8F9FB;
+  height: 100vh;
+}
+
+.font-numeric {
+  font-variant-numeric: lining-nums proportional-nums;
 }

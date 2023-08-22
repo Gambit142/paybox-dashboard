@@ -1,0 +1,144 @@
+/* Style Rules for Account Summary component of Analytics Dashboard */
+
+/* Account Balance Container and its children elements Styling */
+
+.balance-container {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+/* Use specific classes for each background image */
+.image {
+  position: absolute;
+  opacity: 0.1;
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+  box-shadow: 0px 4px 4px 0px #032282;
+}
+
+.image1 {
+  width: 3.1845rem;
+  height: 3.38313rem;
+  transform: rotate(159.543deg);
+  border-radius: 0.125rem;
+  left: 8.81rem;
+  bottom: 5.69rem
+}
+
+.image2 {
+  width: 3.18613rem;
+  height: 5.171rem;
+  transform: rotate(-20.622deg);
+  border-radius: 0.125rem;
+  top: -1.18rem;
+  right: 3.4rem;
+  bottom: 4.24rem;
+  left: 12.65rem;
+}
+
+.image3 {
+  width: 3.1845rem;
+  height: 6.86875rem;
+  transform: rotate(159.543deg);
+  border-radius: 0.125rem;
+  top: -4.06rem;
+  right: 3.42rem;
+  bottom: 4.24rem;
+  left: 12.51rem;
+  opacity: 0.2;
+}
+
+.image4 {
+  width: 3.1845rem;
+  height: 3.9545rem;
+  transform: rotate(159.543deg);
+  border-radius: 0.125rem;
+  top: 5.75rem;
+  right: 0.82rem;
+  bottom: -1.54rem;
+  left: 16.5rem;
+  opacity: 0.1;
+
+}
+
+/* Overlay styles */
+.overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.walletBalText {
+  color: #cdcdcd;
+  line-height: normal;
+}
+
+.walletBalAmt {
+  gap: 0.87rem;
+}
+
+.walletBtnDiv {
+  gap: 1.06rem;
+  margin-top: 1.13rem;
+}
+
+.walletBtnDiv button {
+  border-radius: 0.4375rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+
+.btn1 {
+  padding: 0.63rem 1.69rem;
+}
+
+.btn2 {
+  padding: 0.63rem 1.5rem;
+}
+
+/* Account Details Container and its children element Styling */
+
+.accountDetailsContainer {
+  border-radius: 0.75rem;
+  background: #FFF;
+  margin-top: 0.75rem;
+  padding: 0.69rem 0.88rem; 
+}
+
+.accountDetails {
+  border-radius: 0.625rem;
+  background: #F6FAFF;
+  padding: 1.5rem 0 0.95rem 0.87rem;
+  gap: 1.37rem;
+}
+
+.detailInfo {
+  line-height: 0.9375rem;
+}
+
+.detailType {
+  letter-spacing: 0.01rem;
+}
+
+.detailValue {
+  letter-spacing: 0.0725rem;
+}
+
+.detailsBtn {
+  margin-left: 0.88rem;
+  border: none;
+  background: #fff;
+}
+
+.rightIconDiv {
+  margin-top: 0.56rem;
+}
+
+
