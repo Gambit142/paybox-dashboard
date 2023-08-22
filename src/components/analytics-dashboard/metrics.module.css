@@ -79,3 +79,42 @@
 .green {
   background-color: #18A201;
 }
+
+/* Styles for the Transaction Comparative Component */
+
+.comparativeContainer {
+  margin-top: var(--zeroPointSevenFive);
+  border-radius: 0.625rem;
+  background: #fff;
+  padding: 1.5rem 0 0 1.5rem;
+}
+
+.comparativeInfo {
+  margin-top: 1.25rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.blue {
+  background-color: #032282;
+}
+
+hr {
+  margin-top: 0.4rem;
+  border: 1px dotted #c4c4c4;
+  width: 14.875rem;
+  height: 0.03125rem;
+}
+
+.expensesDiv {
+  gap: 1.56rem;
+  margin-top: 1rem;
+}
+
+.yellow {
+  background-color: #f4be38;
+}
+
+.grey {
+  background-color: #ede1ff;
+}
