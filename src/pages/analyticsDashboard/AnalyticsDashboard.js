@@ -1,7 +1,9 @@
-import UnderConstruction from '../../components/underConstruction';
+import AccountSummary from '../../components/analytics-dashboard/AccountSummary';
 
 const AnalyticsDashboard = () => (
-  <UnderConstruction />
+  <section className="container-padding">
+    <AccountSummary />
+  </section>
 );
 
 AnalyticsDashboard.displayName = 'AnalyticsDashboard';
