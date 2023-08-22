@@ -1,0 +1,53 @@
+/* Style Rules for Aggregate Metrics component of Analytics Dashboard */
+
+/* Styles for each aggregate metric card */
+
+:root {
+  --zeroPointSevenFive: 0.75rem;
+}
+
+.textHeightSpacing1 {
+  line-height: 0.9375rem;
+  letter-spacing: 0.01rem;
+}
+
+.textHeightSpacing2 {
+  line-height: 1.9375rem;
+  letter-spacing: 0.0725rem;
+}
+
+.metricsContainer {
+  border-radius: 0.625rem;
+  background: #fff;
+  margin-top: var(--zeroPointSevenFive);
+  padding: var(--zeroPointSevenFive) 0.88rem;
+}
+
+.metricsInfoDiv {
+  border-radius: 0.625rem;
+  background: #f6faff;
+  padding: 1rem;
+}
+
+.generalLabelDiv {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moreBtn {
+  border-radius: 0.375rem;
+  background: #eaf4ff;
+  border: none;
+  padding: 0.44rem var(--zeroPointSevenFive);
+  gap: 0.5rem;
+}
+
+.timeIntervalDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: var(--zeroPointSevenFive);
+}
+
+.infoDiv {
+  margin-top: 0.5rem;
+}

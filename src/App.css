@@ -132,13 +132,12 @@
 }
 
 .line-height-1 {
-  line-height: 1.25rem;
+  line-height: var(--fs-20)
 }
 
 .container-padding {
-  padding: 1em;
+  padding: var(--fs-16);
   background: #F8F9FB;
-  height: 100vh;
 }
 
 .font-numeric {
