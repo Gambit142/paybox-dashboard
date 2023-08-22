@@ -1,4 +1,5 @@
 import { financialMetrics } from '../../data/transactionDetails';
+import TransactionComparative from './Transaction-Comparative';
 import styles from './metrics.module.css';
 
 const FinancialMetrics = () => (
@@ -25,11 +26,11 @@ const FinancialMetrics = () => (
                 </div>
               ))
             }
-
           </div>
         </div>
       </article>
     ))}
+    <TransactionComparative />
   </section>
 );
 

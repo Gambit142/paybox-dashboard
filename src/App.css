@@ -9,6 +9,7 @@
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
+  --fs-10: 0.625rem;
   --fs-12: 0.75rem;
   --fs-14: 0.875rem;
   --fs-16: 1rem;
@@ -77,6 +78,10 @@
 .clash-display-font-700 {
   font-family: var(--clash-display);
   font-weight: var(--fw-700);
+}
+
+.fs-10 {
+  font-size: var(--fs-10);
 }
 
 .fs-12 {
