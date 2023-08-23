@@ -29,6 +29,13 @@
   padding: 1rem;
 }
 
+.financeMetricsInfoDiv {
+  border-radius: 0.625rem;
+  background: #f6faff;
+  padding: 1.5rem;
+  height: 13rem;
+}
+
 .generalLabelDiv {
   justify-content: space-between;
   align-items: center;
@@ -123,10 +130,10 @@ hr {
 
 /* Styles for Aggregate Container Desktop Version */
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .mainMetricsContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.25rem;
   }
 
@@ -145,7 +152,30 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     grid-column: span 2;
     gap: 5rem;
+    padding: 1rem;
   }
 }
 
+@media (min-width: 1024px) {
+  .mainMetricsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.25rem;
+  }
 
+  .timeIntervalDiv {
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 0.6rem;
+  }
+
+  .center {
+    align-self: center;
+  }
+
+  .comparativeContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 2;
+    gap: 5rem;
+    padding: 1rem;
+  }
+}

@@ -6,7 +6,7 @@ const FinancialMetrics = () => (
   <section className={`${styles.mainMetricsContainer}`}>
     {financialMetrics.map((detail) => (
       <article key={detail.generalLabel} className={styles.metricsContainer}>
-        <div className={`flex flex-column ${styles.metricsInfoDiv}`}>
+        <div className={`flex flex-column ${styles.financeMetricsInfoDiv}`}>
           <div className={`flex ${styles.generalLabelDiv}`}>
             <span className={`sora-font-500 font-numeric light-blue fs-14 ${styles.textHeightSpacing1}`}>{detail.generalLabel}</span>
             <button type="button" className={`flex ${styles.moreBtn}`}>
