@@ -62,9 +62,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+> This is the link to the deployed application
 
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://paybox-dashboard.vercel.app/analytics_dashboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
