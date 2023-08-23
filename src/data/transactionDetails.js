@@ -26,19 +26,19 @@ const timeIntervalsMobile = [
 const aggregateMetricsForTwoWeeksMobile = [
   {
     generalLabel: 'Total transfers',
-    timeIntervalsMobile,
+    timeIntervals: timeIntervalsMobile,
   },
   {
     generalLabel: 'Total inflows',
-    timeIntervalsMobile,
+    timeIntervals: timeIntervalsMobile,
   },
   {
     generalLabel: 'Total transactions',
-    timeIntervalsMobile,
+    timeIntervals: timeIntervalsMobile,
   },
   {
     generalLabel: 'Transaction count',
-    timeIntervalsMobile,
+    timeIntervals: timeIntervalsMobile,
   },
 ];
 
@@ -69,19 +69,19 @@ const timeIntervalsDesktop = [
 const aggregateMetricsForTwoWeeksDesktop = [
   {
     generalLabel: 'Total transfers',
-    timeIntervalsDesktop,
+    timeIntervals: timeIntervalsDesktop,
   },
   {
     generalLabel: 'Total inflows',
-    timeIntervalsDesktop,
+    timeIntervals: timeIntervalsDesktop,
   },
   {
     generalLabel: 'Total transactions',
-    timeIntervalsDesktop,
+    timeIntervals: timeIntervalsDesktop,
   },
   {
     generalLabel: 'Transaction count',
-    timeIntervalsDesktop,
+    timeIntervals: timeIntervalsDesktop,
   },
 ];
 

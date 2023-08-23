@@ -4,7 +4,7 @@ import navigationLinksData from '../../data/navigationLinksData';
 import styles from './navigation.module.css';
 
 const Navigation = ({ closeMobileMenu }) => (
-  <nav className={` flex flex-column ${styles.navigationContainer}`}>
+  <nav className={` flex flex-column background-blue ${styles.navigationContainer}`}>
     <hr className={`white ${styles.line}`} />
     <ul className={`flex flex-column ${styles.linksContainer}`}>
       {navigationLinksData.map((link, index) => (

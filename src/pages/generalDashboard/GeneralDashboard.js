@@ -4,6 +4,7 @@ import MediaQuery from 'react-responsive';
 import SideNavigation from '../../components/navigation/SideNavigation';
 import navigationLinksData from '../../data/navigationLinksData';
 import DisplayDashboardContent from './DisplayDashboardContent';
+import styles from './general-dashboard.module.css';
 
 const GeneralDashboard = () => (
   <>
@@ -12,11 +13,11 @@ const GeneralDashboard = () => (
         <DisplayDashboardContent navigationLinksData={navigationLinksData} />
       </MediaQuery>
       <MediaQuery minWidth={769}>
-        <section>
+        <section className={`background-blue flex ${styles.generalDashboardContainer}`}>
           <aside>
-            <SideNavigation navigationLinksData={navigationLinksData} />
+            <SideNavigation />
           </aside>
-          <section>
+          <section className={styles.displayContentContainer}>
             <DisplayDashboardContent navigationLinksData={navigationLinksData} />
           </section>
         </section>

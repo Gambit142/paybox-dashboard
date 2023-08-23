@@ -3,7 +3,6 @@
 .navigationContainer {
   align-items: flex-start;
   padding: 1.88rem 1rem 0 1rem;
-  background-color: #07112d;
   height: 100vh;
   overflow-y: auto;
   padding-bottom: 4rem;
@@ -46,4 +45,16 @@
 .linkWord {
   gap: 0.5rem;
   align-items: center;
+}
+
+/* Styles for Side Bar Navigation */
+
+.logo {
+  margin: 3.38rem 0 1.87rem 2.12rem;
+  text-decoration: none;
+}
+
+.upperLogoText {
+  font-size: 2rem;
+  line-height: normal;
 }

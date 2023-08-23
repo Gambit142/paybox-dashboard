@@ -1,0 +1,9 @@
+/* Styles for the General Dashboard Container */
+
+.generalDashboardContainer {
+  gap: 1rem;
+}
+
+.displayContentContainer {
+  margin: 1.75rem 2.69rem 0 0;
+}

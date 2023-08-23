@@ -14,7 +14,7 @@ const AggregateMetrics = ({ aggregateMetricsData }) => (
             </button>
           </div>
           <div className={styles.timeIntervalDiv}>
-            {detail.timeIntervalsMobile.map((timeInterval) => (
+            {detail.timeIntervals.map((timeInterval) => (
               <div key={timeInterval.label} className={`flex flex-column ${styles.infoDiv}`}>
                 <span className={`light-blue font-numeric nunito-font-400 ${styles.textHeightSpacing1}`}>{timeInterval.label}</span>
                 <span className={`dark-blue sora-font-600 font-numeric ${styles.textHeightSpacing2}`}>{timeInterval.value}</span>
@@ -33,7 +33,7 @@ AggregateMetrics.propTypes = {
   aggregateMetricsData: PropTypes.arrayOf(
     PropTypes.shape({
       generalLabel: PropTypes.string.isRequired,
-      timeIntervalsMobile: PropTypes.arrayOf(
+      timeIntervals: PropTypes.arrayOf(
         PropTypes.shape({
           label: PropTypes.string.isRequired,
           value: PropTypes.string.isRequired,

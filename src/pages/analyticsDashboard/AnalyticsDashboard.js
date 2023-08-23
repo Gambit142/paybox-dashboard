@@ -10,6 +10,7 @@ import {
 const AnalyticsDashboard = () => {
   const mobile = useMediaQuery({ query: '(max-width: 768px)' });
   const arrayData = mobile ? aggregateMetricsForTwoWeeksMobile : aggregateMetricsForTwoWeeksDesktop;
+
   return (
     <section className="container-padding">
       <AccountSummary />

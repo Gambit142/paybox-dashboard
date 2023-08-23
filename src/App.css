@@ -17,7 +17,7 @@
   --white: #fff;
   --light-blue: #4f64a7;
   --dark-blue: #032282;
-  --background-blue: #07112D;
+  --background-blue: #07112d;
   --light-dark: #37474F;
   --dark: #263238;
 }
@@ -122,10 +122,6 @@
 
 .dark {
   color: var(--dark);
-}
-
-.primary-bacground {
-  background-color: var(--background-blue);
 }
 
 .secondary-background {

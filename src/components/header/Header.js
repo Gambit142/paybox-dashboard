@@ -2,7 +2,7 @@ import { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import PropTypes from 'prop-types';
 import { slide as Menu } from 'react-burger-menu';
-import MobileNavigation from '../navigation/MobileNavigation';
+import Navigation from '../navigation/MobileNavigation';
 import styles from './header.module.css';
 
 const Header = ({ title }) => {
@@ -33,20 +33,22 @@ const Header = ({ title }) => {
           isOpen={isMobileMenuOpen}
           onStateChange={mobileMenuStateChangeHandler}
         >
-          <MobileNavigation closeMobileMenu={closeMobileMenu} />
+          <Navigation closeMobileMenu={closeMobileMenu} />
         </Menu>
       </MediaQuery>
       <MediaQuery minWidth={769}>
-        <header>
-          <div>
-            <h1>{title}</h1>
-            <div>
-              <img src="/assets/images/notification-bing.svg" alt="notification icon" />
-              <img src="/assets/images/Francis_Ugorji.jpg" alt="user icon" />
-              <div>
-                <h2>Francis Ugorji</h2>
-                <div>
-                  <span>nzefrancismaryeugorji@gmail.com</span>
+        <header className={styles.headerDesktopContainer}>
+          <div className={`${styles.headerDesktopDiv} flex`}>
+            <h1 className="nunito-font-600">{title}</h1>
+            <div className={`flex ${styles.loginInfo}`}>
+              <div className={styles.iconPlaceholder}>
+                <img src="/assets/images/notification-bing.svg" alt="notification icon" />
+              </div>
+              <img src="/assets/images/Francis_Ugorji.jpg" alt="user icon" className={styles.userAvatar} />
+              <div className={`${styles.userInfoDiv}`}>
+                <h2 className="nunito-font-700 fs-14">Francis Ugorji</h2>
+                <div className={`flex ${styles.emailDiv}`}>
+                  <span className={`nunito-font-400 fs-10 ${styles.email}`}>nzefrancismaryeugorji@gmail.com</span>
                   <img src="/assets/images/Chevron-down.svg" alt="chevron down icon" />
                 </div>
               </div>
