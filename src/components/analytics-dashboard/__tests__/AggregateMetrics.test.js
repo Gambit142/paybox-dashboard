@@ -6,7 +6,9 @@ import { aggregateMetricsForTwoWeeksDesktop } from '../../../data/transactionDet
 
 describe('AggregateMetrics', () => {
   test('AggregateMetrics renders correctly', () => {
-    const tree = renderer.create(<AggregateMetrics aggregateMetricsData={aggregateMetricsForTwoWeeksDesktop} />).toJSON();
+    const tree = renderer.create(
+      <AggregateMetrics aggregateMetricsData={aggregateMetricsForTwoWeeksDesktop} />,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
   test('AggregateMetrics renders aggregate metrics', async () => {
