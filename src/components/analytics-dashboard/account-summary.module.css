@@ -1,0 +1,121 @@
+/* Style Rules for Account Summary component of Analytics Dashboard */
+
+/* Account Balance Container and its children elements Styling */
+
+.balance-container {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background-image: url('../../../public/assets/images/Rectangle1.svg'), url('../../../public/assets/images/Rectangle2.svg'), url('../../../public/assets/images/Rectangle3.svg'), url('../../../public/assets/images/Rectangle4.svg');
+  background-repeat: no-repeat;
+  background-position: left 6.19rem bottom 6.19rem, left 10.33rem bottom 4.74rem, left 9.43rem bottom 6.02rem, left 14.5rem top 5.75rem;
+}
+
+/* Overlay styles */
+.overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.walletBalText {
+  color: #cdcdcd;
+  line-height: normal;
+}
+
+.walletBalAmt {
+  gap: 0.87rem;
+}
+
+.walletBtnDiv {
+  gap: 1.06rem;
+  margin-top: 1.13rem;
+}
+
+.walletBtnDiv button {
+  border-radius: 0.4375rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+
+.btn1 {
+  padding: 0.63rem 1.69rem;
+}
+
+.btn2 {
+  padding: 0.63rem 1.5rem;
+}
+
+/* Account Details Container and its children element Styling */
+
+.accountDetailsContainer {
+  border-radius: 0.625rem;
+  background: #fff;
+  margin-top: 0.75rem;
+  padding: 0.69rem 0.88rem;
+}
+
+.accountDetails {
+  border-radius: 0.625rem;
+  background: #f6faff;
+  padding: 1.5rem 0 0.95rem 0.87rem;
+  gap: 1.37rem;
+}
+
+.detailInfo {
+  line-height: 0.9375rem;
+}
+
+.detailType {
+  letter-spacing: 0.01rem;
+}
+
+.detailValue {
+  letter-spacing: 0.0725rem;
+}
+
+.detailsBtn {
+  margin-left: 0.88rem;
+  border: none;
+  background: #fff;
+}
+
+.rightIconDiv {
+  margin-top: 0.56rem;
+}
+
+/* Desktop Style Rules for the Account Summary Component */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .accountSummaryContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .accountSummaryContainer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 1.25rem;
+  }
+
+  .balance-container {
+    padding: 1.5rem;
+    justify-content: center;
+    background-image: url('../../../public/assets/images/Rectangle1.svg'), url('../../../public/assets/images/Rectangle2.svg'), url('../../../public/assets/images/Rectangle3.svg'), url('../../../public/assets/images/Rectangle4.svg');
+    background-repeat: no-repeat;
+    background-position: left 6.19rem bottom 6.19rem, left 10.33rem bottom 4.74rem, left 9.43rem bottom 6.02rem, left 9.4rem top 6.25rem;
+  }
+
+  .walletBtnDiv button {
+    padding: 0.6rem;
+  }
+}

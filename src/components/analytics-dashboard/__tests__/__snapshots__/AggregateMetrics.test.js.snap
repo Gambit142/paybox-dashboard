@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AggregateMetrics AggregateMetrics renders correctly 1`] = `
+<section
+  className="mainMetricsContainer"
+>
+  <article
+    className="metricsContainer"
+  >
+    <div
+      className="flex flex-column metricsInfoDiv"
+    >
+      <div
+        className="flex generalLabelDiv"
+      >
+        <span
+          className="sora-font-500 font-numeric light-blue fs-14 textHeightSpacing1"
+        >
+          Total transfers
+        </span>
+        <button
+          className="flex moreBtn"
+          type="button"
+        >
+          <span
+            className="nunito-font-500 font-numeric dark-blue textHeightSpacing1"
+          >
+            More
+          </span>
+          <img
+            alt="dropdown-icon"
+            src="./assets/images/dropdown-icon.svg"
+          />
+        </button>
+      </div>
+      <div
+        className="timeIntervalDiv"
+      >
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Today
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦2,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Yesterday
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            This week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Last week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article
+    className="metricsContainer"
+  >
+    <div
+      className="flex flex-column metricsInfoDiv"
+    >
+      <div
+        className="flex generalLabelDiv"
+      >
+        <span
+          className="sora-font-500 font-numeric light-blue fs-14 textHeightSpacing1"
+        >
+          Total inflows
+        </span>
+        <button
+          className="flex moreBtn"
+          type="button"
+        >
+          <span
+            className="nunito-font-500 font-numeric dark-blue textHeightSpacing1"
+          >
+            More
+          </span>
+          <img
+            alt="dropdown-icon"
+            src="./assets/images/dropdown-icon.svg"
+          />
+        </button>
+      </div>
+      <div
+        className="timeIntervalDiv"
+      >
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Today
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦2,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Yesterday
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            This week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Last week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article
+    className="metricsContainer"
+  >
+    <div
+      className="flex flex-column metricsInfoDiv"
+    >
+      <div
+        className="flex generalLabelDiv"
+      >
+        <span
+          className="sora-font-500 font-numeric light-blue fs-14 textHeightSpacing1"
+        >
+          Total transactions
+        </span>
+        <button
+          className="flex moreBtn"
+          type="button"
+        >
+          <span
+            className="nunito-font-500 font-numeric dark-blue textHeightSpacing1"
+          >
+            More
+          </span>
+          <img
+            alt="dropdown-icon"
+            src="./assets/images/dropdown-icon.svg"
+          />
+        </button>
+      </div>
+      <div
+        className="timeIntervalDiv"
+      >
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Today
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦2,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Yesterday
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            This week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Last week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article
+    className="metricsContainer"
+  >
+    <div
+      className="flex flex-column metricsInfoDiv"
+    >
+      <div
+        className="flex generalLabelDiv"
+      >
+        <span
+          className="sora-font-500 font-numeric light-blue fs-14 textHeightSpacing1"
+        >
+          Transaction count
+        </span>
+        <button
+          className="flex moreBtn"
+          type="button"
+        >
+          <span
+            className="nunito-font-500 font-numeric dark-blue textHeightSpacing1"
+          >
+            More
+          </span>
+          <img
+            alt="dropdown-icon"
+            src="./assets/images/dropdown-icon.svg"
+          />
+        </button>
+      </div>
+      <div
+        className="timeIntervalDiv"
+      >
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Today
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦2,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Yesterday
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            This week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+        <div
+          className="flex flex-column infoDiv"
+        >
+          <span
+            className="light-blue font-numeric nunito-font-400 textHeightSpacing1"
+          >
+            Last week
+          </span>
+          <span
+            className="dark-blue sora-font-600 font-numeric textHeightSpacing2"
+          >
+            ₦5,000,000
+          </span>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+`;

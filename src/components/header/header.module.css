@@ -1,0 +1,80 @@
+:root {
+  --align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.header h1 {
+  font-size: 1.125rem;
+  margin: 1.56rem 0 1.25rem 0;
+  letter-spacing: -0.015rem;
+}
+
+.header button {
+  letter-spacing: -0.015rem;
+  padding: 0.5rem 1.38rem 0.5rem 1.5rem;
+  background-color: #2d4696;
+  border-radius: 0.625rem;
+  border: none;
+  margin: 1.06rem 0 0.75rem 0;
+}
+
+/* Styles for Header Component for Desktop Version */
+
+@media (min-width: 769px) {
+  .headerDesktopContainer {
+    background-color: #fff;
+    border-radius: 1.88rem;
+    padding: 3.56rem 2.62rem 1.32rem 2.62rem;
+    margin-bottom: 1rem;
+  }
+
+  .headerDesktopDiv {
+    justify-content: space-between;
+    align-items: var(--align-items);
+  }
+
+  .headerDesktopDiv h1 {
+    font-size: 1.5rem;
+    color: #242424;
+  }
+
+  .iconPlaceholder {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #ecf1ff;
+    padding: 0.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .loginInfo {
+    align-items: var(--align-items);
+  }
+
+  .userAvatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.69rem;
+  }
+
+  .userInfoDiv h2 {
+    color: #000;
+  }
+
+  .emailDiv {
+    align-items: var(--align-items);
+  }
+
+  .email {
+    color: #818181;
+  }
+}

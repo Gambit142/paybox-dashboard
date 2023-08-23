@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountSummary AccountSummary renders correctly 1`] = `
+<section
+  className="flex flex-column accountSummaryContainer"
+>
+  <div
+    className="balance-container flex flex-column secondary-background"
+  >
+    <div
+      className="nunito-font-400 flex flex-column fs-14 walletBalText overlay"
+    >
+      <h4>
+        Wallet Balance
+      </h4>
+      <div
+        className="sora-font-600 white fs-20 flex font-numeric walletBalAmt"
+      >
+        <span>
+          ₦50,000
+        </span>
+        <img
+          alt="eye icon"
+          src="/assets/images/eye.svg"
+        />
+      </div>
+      <div
+        className="walletBtnDiv flex"
+      >
+        <button
+          className="nunito-font-600 fs-14 white btn1"
+          type="button"
+        >
+          Add Fund
+        </button>
+        <button
+          className="nunito-font-600 fs-14 white btn2"
+          type="button"
+        >
+          Withdraw
+        </button>
+      </div>
+    </div>
+  </div>
+  <article
+    className="accountDetailsContainer"
+  >
+    <div
+      className="accountDetails flex flex-column"
+    >
+      <span
+        className="light-blue sora-font-400 fs-14 font-numeric detailInfo detailType"
+      >
+        Total savings balance
+      </span>
+      <span
+        className="dark-blue font-numeric sora-font-600 fs-20 detailInfo detailValue"
+      >
+        ₦194,000
+      </span>
+    </div>
+    <div
+      className="flex"
+    >
+      <button
+        className="dark-blue font-numeric nunito-font-400 fs-12 detailType detailInfo detailsBtn"
+        type="button"
+      >
+        View Details
+      </button>
+      <div
+        className="rightIconDiv"
+      >
+        <img
+          alt="group-right-icon"
+          src="./assets/images/group-right-icon.svg"
+        />
+      </div>
+    </div>
+  </article>
+  <article
+    className="accountDetailsContainer"
+  >
+    <div
+      className="accountDetails flex flex-column"
+    >
+      <span
+        className="light-blue sora-font-400 fs-14 font-numeric detailInfo detailType"
+      >
+        Total customers
+      </span>
+      <span
+        className="dark-blue font-numeric sora-font-600 fs-20 detailInfo detailValue"
+      >
+        ₦919
+      </span>
+    </div>
+    <div
+      className="flex"
+    >
+      <button
+        className="dark-blue font-numeric nunito-font-400 fs-12 detailType detailInfo detailsBtn"
+        type="button"
+      >
+        View Details
+      </button>
+      <div
+        className="rightIconDiv"
+      >
+        <img
+          alt="group-right-icon"
+          src="./assets/images/group-right-icon.svg"
+        />
+      </div>
+    </div>
+  </article>
+  <article
+    className="accountDetailsContainer"
+  >
+    <div
+      className="accountDetails flex flex-column"
+    >
+      <span
+        className="light-blue sora-font-400 fs-14 font-numeric detailInfo detailType"
+      >
+        Total POS transactions
+      </span>
+      <span
+        className="dark-blue font-numeric sora-font-600 fs-20 detailInfo detailValue"
+      >
+        0
+      </span>
+    </div>
+    <div
+      className="flex"
+    >
+      <button
+        className="dark-blue font-numeric nunito-font-400 fs-12 detailType detailInfo detailsBtn"
+        type="button"
+      >
+        View Details
+      </button>
+      <div
+        className="rightIconDiv"
+      >
+        <img
+          alt="group-right-icon"
+          src="./assets/images/group-right-icon.svg"
+        />
+      </div>
+    </div>
+  </article>
+</section>
+`;
