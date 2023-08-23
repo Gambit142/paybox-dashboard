@@ -4,9 +4,9 @@ import GeneralDashboard from './pages/generalDashboard/GeneralDashboard';
 
 function App() {
   return (
-    <main className="main-container">
+    <>
       <GeneralDashboard />
-    </main>
+    </>
   );
 }
 

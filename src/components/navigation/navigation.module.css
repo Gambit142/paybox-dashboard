@@ -6,6 +6,13 @@
   height: 100vh;
   overflow-y: auto;
   padding-bottom: 4rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+.navigationContainer::-webkit-scrollbar {
+  width: 0;
+  display: none;
 }
 
 .line {

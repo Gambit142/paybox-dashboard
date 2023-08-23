@@ -8,3 +8,9 @@
     font-family: 'Nunito', sans-serif;
   }
 
+  @media (min-width: 769px) {
+    body {
+      width: fit-content;
+    }
+  }
+

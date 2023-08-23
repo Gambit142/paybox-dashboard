@@ -3,7 +3,7 @@ import TransactionComparative from './Transaction-Comparative';
 import styles from './metrics.module.css';
 
 const FinancialMetrics = () => (
-  <section>
+  <section className={`${styles.mainMetricsContainer}`}>
     {financialMetrics.map((detail) => (
       <article key={detail.generalLabel} className={styles.metricsContainer}>
         <div className={`flex flex-column ${styles.metricsInfoDiv}`}>

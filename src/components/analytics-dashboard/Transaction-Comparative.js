@@ -2,7 +2,7 @@ import styles from './metrics.module.css';
 import DoughnutChart from '../../utils/DoughnutChart';
 
 const TransactionComparative = () => (
-  <article className={styles.comparativeContainer}>
+  <article className={`${styles.comparativeContainer}`}>
     <div className="flex flex-column">
       <h2 className={`light-dark nunito-font-600 fs-16 font-numeric ${styles.textHeightSpacing1}`}>Transaction Comparative</h2>
       <div>

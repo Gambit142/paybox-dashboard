@@ -141,4 +141,42 @@
   margin-top: 0.56rem;
 }
 
+/* Desktop Style Rules for the Account Summary Component */
+
+@media (min-width: 769px) {
+  .accountSummaryContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.25rem;
+  }
+
+  .balance-container {
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .image1 {
+    top: -0.6rem;
+    left: 6.6rem;
+  }
+
+  .image2 {
+    top: -1.7rem;
+    left: 10.2rem;
+  }
+
+  .image3 {
+    top: -4.6rem;
+    left: 9.8rem;
+  }
+
+  .image4 {
+    top: 5.25rem;
+    left: 9.9rem;
+  }
+
+  .walletBtnDiv button {
+    padding: 0.6rem;
+  }
+}
 

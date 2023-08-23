@@ -1,9 +1,16 @@
 /* Styles for the General Dashboard Container */
 
 .generalDashboardContainer {
+  display: flex;
+  padding-bottom: 1rem;
   gap: 1rem;
 }
 
 .displayContentContainer {
   margin: 1.75rem 2.69rem 0 0;
+}
+
+.headerComponentContainer {
+  background: #F8F9FB;
+  border-radius: 1.88rem;
 }

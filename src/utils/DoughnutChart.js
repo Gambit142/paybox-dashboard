@@ -2,6 +2,7 @@ import React from 'react';
 import {
   PieChart, Pie, Cell, ResponsiveContainer,
 } from 'recharts';
+import { useMediaQuery } from 'react-responsive';
 
 const data = [
   { name: 'Label 1', value: 60 },
@@ -43,26 +44,30 @@ const renderCustomizedLabel = ({
   );
 };
 
-const DoughnutChart = () => (
-  <ResponsiveContainer width="100%" height={300}>
-    <PieChart>
-      <Pie
-        data={data}
-        dataKey="value"
-        cx="25%"
-        cy="35%"
-        innerRadius={50}
-        outerRadius={75}
-        paddingAngle={5}
-        labelLine={false}
-        label={renderCustomizedLabel}
-      >
-        {data.map((entry, index) => (
-          <Cell key={`cell-${entry.name}`} fill={COLORS[index]} />
-        ))}
-      </Pie>
-    </PieChart>
-  </ResponsiveContainer>
-);
+const DoughnutChart = () => {
+  const heightValue = useMediaQuery({ query: '(max-width: 768px)' }) ? 300 : 195;
+  const cyValue = useMediaQuery({ query: '(max-width: 768px)' }) ? '35%' : '58%';
+  return (
+    <ResponsiveContainer width="100%" height={heightValue}>
+      <PieChart>
+        <Pie
+          data={data}
+          dataKey="value"
+          cx="25%"
+          cy={cyValue}
+          innerRadius={50}
+          outerRadius={75}
+          paddingAngle={5}
+          labelLine={false}
+          label={renderCustomizedLabel}
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${entry.name}`} fill={COLORS[index]} />
+          ))}
+        </Pie>
+      </PieChart>
+    </ResponsiveContainer>
+  );
+};
 
 export default DoughnutChart;

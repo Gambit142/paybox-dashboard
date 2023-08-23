@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './metrics.module.css';
 
 const AggregateMetrics = ({ aggregateMetricsData }) => (
-  <section className="flex flex-column">
+  <section className={`${styles.mainMetricsContainer}`}>
     {aggregateMetricsData.map((detail) => (
       <article key={detail.generalLabel} className={styles.metricsContainer}>
         <div className={`flex flex-column ${styles.metricsInfoDiv}`}>

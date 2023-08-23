@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Header from '../../components/header/Header';
+import styles from './general-dashboard.module.css';
 
 const DisplayDashboardContent = ({ navigationLinksData }) => (
   <Routes>
@@ -10,7 +11,7 @@ const DisplayDashboardContent = ({ navigationLinksData }) => (
         path={link.path}
         exact
         element={(
-          <div>
+          <div className={styles.headerComponentContainer}>
             <Header title={link.name} />
             <link.component />
           </div>

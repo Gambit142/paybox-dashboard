@@ -83,6 +83,8 @@
 /* Styles for the Transaction Comparative Component */
 
 .comparativeContainer {
+  display: grid;
+  grid-template-columns: 1fr;
   margin-top: var(--zeroPointSevenFive);
   border-radius: 0.625rem;
   background: #fff;
@@ -118,3 +120,32 @@ hr {
 .grey {
   background-color: #ede1ff;
 }
+
+/* Styles for Aggregate Container Desktop Version */
+
+@media (min-width: 769px) {
+  .mainMetricsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.25rem;
+  }
+
+  .timeIntervalDiv {
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 0.6rem;
+  }
+
+  .center {
+    align-self: center;
+  }
+
+  /* Styles For Financial Metrics component */
+
+  .comparativeContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 2;
+    gap: 5rem;
+  }
+}
+
+

@@ -2,13 +2,13 @@ import styles from './account-summary.module.css';
 import accountDetails from '../../data/accountDetails';
 
 const AccountSummary = () => (
-  <section className="flex flex-column">
+  <section className={`flex flex-column ${styles.accountSummaryContainer}`}>
     <div className={`${styles['balance-container']} flex flex-column secondary-background`}>
       <div className={`${styles.image} ${styles.image1}`} />
       <div className={`${styles.image} ${styles.image2}`} />
       <div className={`${styles.image} ${styles.image3}`} />
       <div className={`${styles.image} ${styles.image4}`} />
-      <div className={`nunito-font-400 fs-14 ${styles.walletBalText} ${styles.overlay}`}>
+      <div className={`nunito-font-400 flex flex-column fs-14 ${styles.walletBalText} ${styles.overlay}`}>
         <h4>Wallet Balance</h4>
         <div className={`sora-font-600 white fs-20 flex font-numeric ${styles.walletBalAmt}`}>
           <span>₦50,000</span>

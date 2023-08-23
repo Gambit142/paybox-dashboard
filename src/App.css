@@ -145,3 +145,11 @@
 .font-numeric {
   font-variant-numeric: lining-nums proportional-nums;
 }
+
+@media (min-width: 769px) {
+  .container-padding {
+    margin-top: 0;
+    border-bottom-left-radius: 1.88rem;
+    border-bottom-right-radius: 1.88rem;
+  }
+}
