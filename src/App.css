@@ -18,7 +18,7 @@
   --light-blue: #4f64a7;
   --dark-blue: #032282;
   --background-blue: #07112d;
-  --light-dark: #37474F;
+  --light-dark: #37474f;
   --dark: #263238;
 }
 
@@ -133,12 +133,12 @@
 }
 
 .line-height-1 {
-  line-height: var(--fs-20)
+  line-height: var(--fs-20);
 }
 
 .container-padding {
   padding: var(--fs-16);
-  background: #F8F9FB;
+  background: #f8f9fb;
   margin-top: 4rem;
 }
 

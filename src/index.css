@@ -1,16 +1,15 @@
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+@media (min-width: 769px) {
   body {
-    font-family: 'Nunito', sans-serif;
+    width: fit-content;
   }
-
-  @media (min-width: 769px) {
-    body {
-      width: fit-content;
-    }
-  }
-
+}

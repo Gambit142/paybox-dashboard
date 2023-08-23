@@ -7,7 +7,7 @@
   overflow-y: auto;
   padding-bottom: 4rem;
   scrollbar-width: none;
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
 }
 
 .navigationContainer::-webkit-scrollbar {

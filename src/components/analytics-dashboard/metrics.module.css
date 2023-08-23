@@ -84,7 +84,7 @@
 }
 
 .green {
-  background-color: #18A201;
+  background-color: #18a201;
 }
 
 /* Styles for the Transaction Comparative Component */
@@ -128,7 +128,7 @@ hr {
   background-color: #ede1ff;
 }
 
-/* Styles for Aggregate Container Desktop Version */
+/* Styles for Aggregate Container Tablet Version */
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .mainMetricsContainer {
@@ -156,6 +156,8 @@ hr {
   }
 }
 
+/* Styles for Aggregate Container Desktop Version */
+
 @media (min-width: 1024px) {
   .mainMetricsContainer {
     display: grid;
@@ -172,6 +174,7 @@ hr {
     align-self: center;
   }
 
+  /* Styles for Financial metrics Component Desktop Version */
   .comparativeContainer {
     grid-template-columns: repeat(2, 1fr);
     grid-column: span 2;
